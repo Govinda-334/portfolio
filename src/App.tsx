@@ -307,7 +307,7 @@ function App() {
       {/* Hero Section */}
       <section
         id="home"
-        className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
+        className=" relative min-h-screen flex items-center justify-center px-4 overflow-hidden pt-16 sm:pt-0 ">
         {/* Animated Background Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
@@ -326,7 +326,7 @@ function App() {
             isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}>
           <div className="mb-8">
-            <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6 animate-slideDown">
+            <div className="inline-flex mt-4 items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6 animate-slideDown">
               <Star className="w-4 h-4 text-yellow-400 animate-spin" />
               <span className="text-sm">Available for Opportunities</span>
               <Zap className="w-4 h-4 text-blue-400 animate-bounce" />
